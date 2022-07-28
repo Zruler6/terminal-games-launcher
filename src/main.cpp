@@ -1,10 +1,19 @@
+//intilizes launcher
+//opens "game" menu
+//useless thereafter
+
 #include "iostream"
+#include "launcher.h"
+
 
 using namespace std;
+
 int main(void){
 
 
-    cout << "Hello World";
+    init();
+    
+    getchar();
     return 0;
 
 }
